@@ -1,0 +1,172 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "3rdparty/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TimerWolves_buff",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-basic-armor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-basic-armor-Debug-025224cbcda1aed12219.json",
+					"name" : "TW-basic-armor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-basic-buff::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-basic-buff-Debug-2f34230b40bc269a1912.json",
+					"name" : "TW-basic-buff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-basic-pnp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-basic-pnp-Debug-87c949e030e4b51dbdec.json",
+					"name" : "TW-basic-pnp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-basic-roi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-basic-roi-Debug-76b4b1975f108a6e1676.json",
+					"name" : "TW-basic-roi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-fan-armor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-fan-armor-Debug-397882fcdc4168eeadd6.json",
+					"name" : "TW-fan-armor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-mv-video-capture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-mv-video-capture-Debug-2c1612524884266beb9e.json",
+					"name" : "TW-mv-video-capture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-uart-serial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-uart-serial-Debug-f7a23c6e36eb805ed2f4.json",
+					"name" : "TW-uart-serial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TW-video-record::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TW-video-record-Debug-1ee19d36db34c192af09.json",
+					"name" : "TW-video-record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TimerWolves_buff::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TimerWolves_buff-Debug-79f993784761cfff96ef.json",
+					"name" : "TimerWolves_buff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fmt::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-fmt-Debug-69b02af40ffd45d4816b.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quinton/Desktop/TimerWolvesVision_buff2022/build",
+		"source" : "/home/quinton/Desktop/TimerWolvesVision_buff2022"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
