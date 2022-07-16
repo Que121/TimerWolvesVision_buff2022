@@ -1,0 +1,5 @@
+Log file created at: 2022/07/16 11:36:53
+Running on machine: quinton-Blade-14-RZ09-0370
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0716 11:36:53.688516 36999 MVCameraBase.cpp:98] Device:(name:MV-SUA134GC#0 sn:042051320315)Lost
+W0716 11:36:55.589296 36999 MVCameraBase.cpp:118] Device:(name:MV-SUA134GC#0 sn:042051320315)ReConnected, TolCount:1

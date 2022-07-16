@@ -1,14 +1,15 @@
 #include "main.hpp"
 
-int main() {
+int main()
+{
   cv::Mat src_img_, roi_img_;
   fps::FPS global_fps_;
   cv::VideoWriter vw_src;
 
   //======== 迈德威视相机初始化 =======//
-  mindvision::VideoCapture* mv_capture_ =
+  mindvision::VideoCapture *mv_capture_ =
       new mindvision::VideoCapture(mindvision::CameraParam(
-          0, mindvision::RESOLUTION_1280_X_1024, mindvision::EXPOSURE_15000));
+          0, mindvision::RESOLUTION_1280_X_1024, mindvision::EXPOSURE_100000));
   cv::VideoCapture cap_ = cv::VideoCapture(0);
 
   //======== 相机录像初始化 =======//
@@ -39,18 +40,23 @@ int main() {
       fmt::format("{}{}", CONFIG_FILE_PATH,
                   "/angle_solve/basic_pnp_config.xml"));
 
-  while (true) {
+  while (true)
+  {
     global_fps_.getTick();
-    if (mv_capture_->isindustryimgInput()) {
+    if (mv_capture_->isindustryimgInput())
+    {
       src_img_ = mv_capture_->image();
-    } else {
+    }
+    else
+    {
       cap_.read(src_img_);
     }
 
-    if (!src_img_.empty()) {
-      serial_.updateReceiveInformation();
-      serial_.printReceiveInformation();
-      serial_.writeData(basic_buff_.runTask(src_img_, serial_.returnReceive()));
+    if (!src_img_.empty())
+    {
+      // serial_.updateReceiveInformation();
+      // serial_.printReceiveInformation();
+      // serial_.writeData(basic_buff_.runTask(src_img_, serial_.returnReceive()));
 
       mv_capture_->cameraReleasebuff();
       cv::imshow("dafule", src_img_);
