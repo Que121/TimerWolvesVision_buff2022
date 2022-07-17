@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 15 22:02:44 2022
+# Make data base, printed on Sun Jul 17 15:08:23 2022
 
 # Variables
 
@@ -32,8 +32,6 @@ XDG_SESSION_TYPE = x11
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -47,11 +45,11 @@ CURDIR := /home/quinton/Desktop/TimerWolvesVision_buff2022
 # makefile
 SHELL = /bin/sh
 # environment
+VTE_VERSION = 6003
+# environment
 VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"/home/quinton/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/tcf.json","_cacheRoot":"/home/quinton/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/quinton/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/home/quinton/.config/Code/clp/bbca1a7059cee8a1b93da8947fee1c4f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /usr/share/code/code
-# environment
-JOURNAL_STREAM = 8:57884
+JOURNAL_STREAM = 8:54884
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -59,7 +57,9 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+IM_CONFIG_PHASE = 1
+# environment
+QT_IM_MODULE = fcitx
 # environment
 USERNAME = quinton
 # environment
@@ -67,35 +67,35 @@ MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=d2b62312e0d868833055d70f62d3b54c
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1683
+_ = /usr/bin/code
+# environment
+MANAGERPID = 2140
 # environment
 ROS_PYTHON_VERSION = 3
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-LS_COLORS = 
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
 LC_NAME = zh_CN.UTF-8
 # environment
-VSCODE_CWD = /home/quinton
+VSCODE_CWD = /home/quinton/Desktop/TimerWolvesVision_buff2022
 # environment
 CLUTTER_IM_MODULE = fcitx
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/cuda-10.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin
+NO_PROXY = localhost,127.0.0.0/8,::1
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
-SESSION_MANAGER = local/quinton-Blade-14-RZ09-0370:@/tmp/.ICE-unix/2183,unix/quinton-Blade-14-RZ09-0370:/tmp/.ICE-unix/2183
+SESSION_MANAGER = local/quinton-Blade-14-RZ09-0370:@/tmp/.ICE-unix/2421,unix/quinton-Blade-14-RZ09-0370:/tmp/.ICE-unix/2421
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -105,7 +105,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 8d12c10ad7344bf7943a3c518b54c26a
+INVOCATION_ID = ef06e4c55a284f2c883584ddf860e537
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -114,12 +114,12 @@ ROS_LOCALHOST_ONLY = 0
 ROS_DISTRO = galactic
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3021
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :1
+HTTPS_PROXY = http://127.0.0.1:7890/
+# environment
+no_proxy = localhost,127.0.0.0/8,::1
 # environment
 GTK_IM_MODULE = fcitx
 # environment
@@ -129,7 +129,7 @@ PWD = /home/quinton/Desktop/TimerWolvesVision_buff2022
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2138
+SSH_AGENT_PID = 2376
 # environment
 PKG_CONFIG_PATH = :/usr/local/lib/pkgconfig
 # environment
@@ -147,6 +147,8 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 AMENT_PREFIX_PATH = /opt/ros/galactic
 # environment
+VSCODE_CLI = 1
+# environment
 VSCODE_CODE_CACHE_PATH = /home/quinton/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LOGNAME = quinton
@@ -155,6 +157,8 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 +F = $(notdir $+)
 # environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
@@ -162,18 +166,20 @@ GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 LC_TIME = zh_CN.UTF-8
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-QT_IM_MODULE = fcitx
+PATH = /usr/local/cuda-10.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/quinton//gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/bin
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d57a14e9-1014-4213-818c-a3b72400883b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2565a463-1cf1-4e11-9c50-ccdf95b59f4c.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -215,7 +221,11 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = zh_CN.UTF-8
 # environment
+HTTP_PROXY = http://127.0.0.1:7890/
+# environment
 QT_ACCESSIBILITY = 1
+# environment
+DISPLAY = :1
 # default
 MAKEFILES := 
 # environment
@@ -223,15 +233,21 @@ LC_NUMERIC = zh_CN.UTF-8
 # automatic
 <F = $(notdir $<)
 # environment
+https_proxy = http://127.0.0.1:7890/
+# environment
 LC_MEASUREMENT = zh_CN.UTF-8
 # environment
 LC_ALL = C
 # environment
+DBUS_STARTER_BUS_TYPE = session
+# environment
 QT4_IM_MODULE = fcitx
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f42b280f_f169_4c29_96cd_d183cd12888b
 # automatic
 ^F = $(notdir $^)
+# environment
+GNOME_TERMINAL_SERVICE = :1.99
 # default
 SUFFIXES := 
 # environment
@@ -245,13 +261,19 @@ LC_IDENTIFICATION = zh_CN.UTF-8
 # default
 .RECIPEPREFIX := 
 # environment
+http_proxy = http://127.0.0.1:7890/
+# environment
 LC_ADDRESS = zh_CN.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 3021
+TERM = xterm-256color
+# environment
+VSCODE_PID = 3092
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=d2b62312e0d868833055d70f62d3b54c
 # variable set hash-table stats:
-# Load=119/1024=12%, Rehash=0, Collisions=21/141=15%
+# Load=130/1024=13%, Rehash=0, Collisions=24/152=16%
 
 # Pattern-specific Variable Values
 
@@ -259,9 +281,10 @@ VSCODE_PID = 3021
 
 # Directories
 
-# . (device 66311, inode 7215580): 16 files, no impossibilities.
+ 
+# . (device 66311, inode 7734605): 21 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -286,7 +309,6 @@ Makefile:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
- 
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
@@ -312,12 +334,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 202 B / avg = 8 B
-# current buf: size = 8162 B / used = 202 B / count = 24 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 243 B / avg = 8 B
+# current buf: size = 8162 B / used = 243 B / count = 29 / avg = 8 B
 
-# strcache performance: lookups = 27 / hit rate = 11%
+# strcache performance: lookups = 32 / hit rate = 9%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Fri Jul 15 22:02:44 2022
+# Load=29/8192=0%, Rehash=0, Collisions=1/32=3%
+# Finished Make data base on Sun Jul 17 15:08:23 2022
 
  

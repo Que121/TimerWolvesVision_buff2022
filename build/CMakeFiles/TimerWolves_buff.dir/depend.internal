@@ -11,6 +11,7 @@ CMakeFiles/TimerWolves_buff.dir/main.cpp.o
  ../3rdparty/mindvision/linux/include/CameraStatus.h
  /home/quinton/Desktop/TimerWolvesVision_buff2022/angle_solve/abstract_pnp.hpp
  /home/quinton/Desktop/TimerWolvesVision_buff2022/angle_solve/basic_pnp.hpp
+ /home/quinton/Desktop/TimerWolvesVision_buff2022/armor/basic_armor.hpp
  /home/quinton/Desktop/TimerWolvesVision_buff2022/armor/fan_armor.hpp
  /home/quinton/Desktop/TimerWolvesVision_buff2022/buff/abstract_blade.hpp
  /home/quinton/Desktop/TimerWolvesVision_buff2022/buff/abstract_center_r.hpp

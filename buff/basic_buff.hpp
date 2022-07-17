@@ -24,6 +24,7 @@ double fps::FPS::last_time;
 
 namespace basic_buff {
 
+// ========================== 设置打印信息 ========================== //
 auto idntifier_green     = fmt::format(fg(fmt::color::green) | fmt::emphasis::bold, "basic_buff");
 auto idntifier_red       = fmt::format(fg(fmt::color::red) | fmt::emphasis::bold, "basic_buff");
 auto idntifier_yellow    = fmt::format(fg(fmt::color::yellow) | fmt::emphasis::bold, "basic_buff");
@@ -33,7 +34,9 @@ auto center_yellow       = fmt::format(fg(fmt::color::yellow) | fmt::emphasis::b
 auto judgement_yellow    = fmt::format(fg(fmt::color::yellow) | fmt::emphasis::bold, "judgement");
 auto predict_yellow      = fmt::format(fg(fmt::color::yellow) | fmt::emphasis::bold, "predict");
 auto final_target_yellow = fmt::format(fg(fmt::color::yellow) | fmt::emphasis::bold, "final_target");
+// ========================== 设置打印信息 ========================== //
 
+// ========================== 参数设置 ========================== //
 struct Buff_Param {
   // BGR
   int RED_BUFF_GRAY_TH;
@@ -115,12 +118,15 @@ struct Buff_Param {
   // 手算pitch 轴弹道补偿
   float OFFSET_MANUAL_ARMOR_PITCH;
 };
+// ========================== 参数设置 ========================== //
 
+// ========================== 模式选择 ========================== //
 struct Buff_Ctrl {
   int IS_PARAM_ADJUSTMENT;
   int IS_SHOW_BIN_IMG;
   int PROCESSING_MODE;
 };
+// ========================== 模式选择 ========================== //
 
 struct Buff_Cfg {
   Buff_Param param;

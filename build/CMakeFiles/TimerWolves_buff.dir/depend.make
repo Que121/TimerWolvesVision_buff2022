@@ -10,6 +10,7 @@ CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../3rdparty/mindvision/linux/include
 CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../3rdparty/mindvision/linux/include/CameraStatus.h
 CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../angle_solve/abstract_pnp.hpp
 CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../angle_solve/basic_pnp.hpp
+CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../armor/basic_armor.hpp
 CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../armor/fan_armor.hpp
 CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../buff/abstract_blade.hpp
 CMakeFiles/TimerWolves_buff.dir/main.cpp.o: ../buff/abstract_center_r.hpp

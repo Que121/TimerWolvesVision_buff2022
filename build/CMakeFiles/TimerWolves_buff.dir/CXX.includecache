@@ -126,6 +126,26 @@ fmt/color.h
 abstract_pnp.hpp
 /home/quinton/Desktop/TimerWolvesVision_buff2022/angle_solve/abstract_pnp.hpp
 
+/home/quinton/Desktop/TimerWolvesVision_buff2022/armor/basic_armor.hpp
+algorithm
+-
+string
+-
+vector
+-
+fmt/core.h
+-
+fmt/color.h
+-
+opencv2/core.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/imgproc.hpp
+-
+devices/serial/uart_serial.hpp
+/home/quinton/Desktop/TimerWolvesVision_buff2022/armor/devices/serial/uart_serial.hpp
+
 /home/quinton/Desktop/TimerWolvesVision_buff2022/armor/fan_armor.hpp
 vector
 -
@@ -261,6 +281,8 @@ buff/basic_buff.hpp
 /home/quinton/Desktop/TimerWolvesVision_buff2022/buff/basic_buff.hpp
 angle_solve/basic_pnp.hpp
 /home/quinton/Desktop/TimerWolvesVision_buff2022/angle_solve/basic_pnp.hpp
+armor/basic_armor.hpp
+/home/quinton/Desktop/TimerWolvesVision_buff2022/armor/basic_armor.hpp
 
 /home/quinton/Desktop/TimerWolvesVision_buff2022/record/record.hpp
 fmt/color.h

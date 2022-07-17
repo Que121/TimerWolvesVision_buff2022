@@ -13,6 +13,7 @@
 #include "utils/reset_mv_camera.hpp"
 #include "buff/basic_buff.hpp"
 #include "angle_solve/basic_pnp.hpp"
+#include "armor/basic_armor.hpp"
 
 auto idntifier = fmt::format(fg(fmt::color::green) | fmt::emphasis::bold,
                              "TimerWolves_buff");
