@@ -1,12 +1,4 @@
-/**
- * @file basic_armor.hpp
- * @author XX (2796393320@qq.com)
- * @brief 装甲板识别
- * @date 2021-08-28
- *
- * @copyright Copyright (c) 2021 GUCROBOT_WOLF
- *
- */
+
 #pragma once
 
 #include <algorithm>
